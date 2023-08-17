@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'owl.carousel/dist/assets/owl.carousel.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root {
+    --light: #eee;
+    --light-dark: #393e46;
+    --dark: #222831;
+    --primary: #ff2600;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+* {
+    font-family: "Montserrat", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--dark);
+}
